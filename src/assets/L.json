@@ -1,0 +1,72 @@
+[
+    
+        { 
+          "id": 2,
+          "nom" :"kawazaki",
+          "code" :"15481",
+          "price": 20,
+          "reviews" : 10,
+          "description" : "''Kawasaki'' est une «marwiya» (un récit? un conte? un genre à part?) qui commence et se termine par la même phrase: «Je suis allé à Tata-Ouine pour une affaire sans importance». Cette clôture fait de tout ce qui a trait au texte une prison..",
+          "imgUrl" : "https://www.tekiano.com/wp-content/uploads/2015/livre-kawazaki-taoufik-ben-brik-2015.jpg"
+    
+       },
+       {
+        "id": 6,
+        "nom" :"Zaïre",
+        "code" :"15681",
+        "price": 40,
+        "reviews" : 5,
+        "description" : "Zaïre est une pièce de théâtre, tragédie en cinq actes de Voltaire, écrite en alexandrin en 1732 et représentée à la Comédie-Française le 13 août 1732.",
+        "imgUrl" : "https://images-na.ssl-images-amazon.com/images/I/51bAfMjiT2L._SX326_BO1,204,203,200_.jpg"
+    
+    
+       },
+
+       {
+        "id": 9,
+        "nom" :"الأديب",
+        "code" :"15681",
+        "price": 46,
+        "reviews" : 5,
+        "description" : "الأديب هو الشخص الذي يعمل في صناعة كافة الأعمال المكتوبة باللغة العربية، ويشمل الأدب العربي كالنثر والشعر المكتوبين بالعربية، وكذلك يشمل القص والرواية والمسرح والنقد. " ,
+        "imgUrl" : "https://decitre.di-static.com/img/fullsize/hussein-taha-adib/9789523215467FS.gif"
+    
+    
+       },
+       {
+        "id": 7,
+        "nom" :"Harry Potter",
+        "code" :"15681",
+        "price": 32,
+        "reviews" : 5,
+        "description" : "Harry Potter et le Prisonnier d'Azkaban est le troisième livre de la série Harry Potter. Ce livre a été le plus rapide à écrire des trois premiers volets, puisqu'il n'a nécessité qu'une année de travail1. J. K. Rowling en a commencé l'écriture au printemps 1998, le lendemain de l’achèvement du livre précédent, La Chambre des Secrets1...",
+        "imgUrl" : "http://t0.gstatic.com/images?q=tbn:ANd9GcQih61w8F1MVbq4kunBCiw0JOLf0zx8PHYmqdMyF2aaJr-hPe01"
+    
+    
+       }
+       ,
+       {
+        "id": 7,
+        "nom" :"Game of thrones",
+        "code" :"15681",
+        "price": 50,
+        "reviews" : 5,
+        "description" : "A Game of Thrones is the first novel in A Song of Ice and Fire, a series of fantasy novels by American author George R. R. Martin. It was first published on August 1, 1996. The novel won the 1997 Locus Award[2] and was nominated for both the 1997 Nebula Award[2] and the 1997 World Fantasy Award.[3] ...",
+        "imgUrl" : "https://images-na.ssl-images-amazon.com/images/I/51KzcuZMlzL._SX304_BO1,204,203,200_.jpg"
+    
+    
+       }
+       ,
+       {
+        "id": 7,
+        "nom" :"The Lord of the Rings",
+        "code" :"15681",
+        "price": 46,
+        "reviews" : 5,
+        "description" : "The Lord of the Rings is an epic high fantasy novel written by English author and scholar J. R. R. Tolkien. The story began as a sequel to Tolkien's 1937 fantasy novel The Hobbit, but eventually developed into a much larger work. Written in stages between 1937 and 1949, The Lord of the Rings is one of the best-selling novels ever written, with over 150 million copies sold.[1]...",
+        "imgUrl" : "https://images-na.ssl-images-amazon.com/images/I/51EstVXM1UL._SX331_BO1,204,203,200_.jpg"
+    
+    
+       }
+     
+    ]

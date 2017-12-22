@@ -1,0 +1,121 @@
+
+<br>
+<div class="container">       
+<div  class="row ">
+
+    <p *ngIf="(livres | filter : service2.term).length === 0"  style=" margin-left: auto;
+    margin-right: auto; "><font size = "4">Pas de Resutat !</font></p>
+   
+<div  *ngFor="let livre of livres | filter : service2.term " style="margin-left:20px;">
+  
+    
+    
+ <div class="card" *ngIf="categorie(livre)" style="width: 15rem; height: 60 rem;">
+
+                    <img id="bb" class="card-img-top" src={{livre.imgUrl}} alt="Card image cap" >
+                    <div class="card-body">
+                      <h4 class="card-title">{{livre.nom}}</h4>
+                      <p  class="card-text" style=" max-height: 50px;overflow: auto;">{{livre.description}}</p>
+                      <div class="btn-ground text-centeng r">
+                          
+                        <button (click)="addToCart(livre)" type="button" class="btn btn-primary btn-sm" ><i class="fa fa-shopping-cart"></i> Add To Cart</button>
+                        <button (click)="affiche(livre)" type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#product_view"><i class="fa fa-search"></i> Details</button>
+                        
+                    </div>
+                    </div>
+                  </div>
+                  <br>
+                
+                  
+
+
+
+                                     
+</div>
+
+</div>
+</div><br>
+
+
+
+
+
+
+
+
+
+
+<div class="modal fade product_view" id="product_view">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                  
+                
+                <a href="#" data-dismiss="modal" class="class pull-right"><span class="fa fa-times"></span></a>
+                <h3 class="modal-title ">{{titreModel}}</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div  class="col-md-6 product_img">
+                        <img src={{image}}  class="img-responsive" height="500" width="380" >
+                    </div>
+                    <div id="kk" class="col-md-6 product_content">
+                        <h4>Product Id: <span>{{idModel}}</span></h4>
+                        
+                        <div class="rating">
+                             <span class="fa fa-star" aria-hidden="true" *ngFor="let review of reviews"></span> 
+                             ({{test}} Rating)
+                            </div>
+                        <p>{{descModel}}</p>
+                        <h3 class="cost"><span class="fa fa-eur"></span> {{prixModel}} <small class="pre-cost"><span class="fa fa-eur"></span> 60.00</small></h3>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="" selected="">Tome</option>
+                                    <option value="black">1</option>
+                                    <option value="white">2</option>
+                                    <option value="gold">3</option>
+                                </select>
+                            </div>
+                           
+                            <!-- end col -->
+                            <div class="col-md-4 col-sm-12">
+                                <select class="form-control" name="select">
+                                    <option value="" selected="">QTY</option>
+                                    <option value="">1</option>
+                                    <!--option value="">2</option>
+                                    <option value="">3</option>
+                                    <option value="">4</option-->
+                                </select>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <div class="space-ten"></div>
+                        <div class="btn-ground">
+                            <button (click)="addToCart(Plivre)" type="button" class="btn btn-primary"><span class="fa fa-shopping-cart"></span> Add To Cart</button>
+                            <!--button type="button" class="btn btn-primary"><span class="fa fa-heart"></span> Add To Wishlist</button>
+                            -->
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
